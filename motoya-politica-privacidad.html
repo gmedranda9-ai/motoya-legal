@@ -8,7 +8,6 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Segoe UI', Arial, sans-serif; color: #1a1a1a; background: #f8f9fa; }
   header { background: #1a3a5c; color: white; padding: 40px 20px; text-align: center; }
-  header img { height: 60px; margin-bottom: 16px; }
   header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
   header p { font-size: 14px; color: #f5c518; }
   .container { max-width: 860px; margin: 40px auto; padding: 0 20px 60px; }
@@ -19,140 +18,127 @@
   li { font-size: 15px; line-height: 1.75; color: #444; margin-bottom: 6px; }
   .badge { display: inline-block; background: #f5c518; color: #1a3a5c; font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 20px; margin-bottom: 16px; }
   .highlight { background: #eef4fb; border-left: 4px solid #1a3a5c; padding: 14px 18px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+  .warning { background: #fff8e1; border-left: 4px solid #f5c518; padding: 14px 18px; border-radius: 0 8px 8px 0; margin: 16px 0; }
   footer { background: #1a3a5c; color: #ccc; text-align: center; padding: 30px 20px; font-size: 13px; }
   footer a { color: #f5c518; text-decoration: none; }
   .fecha { text-align: right; font-size: 13px; color: #888; margin-bottom: 8px; }
 </style>
 </head>
 <body>
-
 <header>
   <h1>🛺 MotoYa</h1>
   <p>Tu mototaxi seguro y rápido en Pedernales, Ecuador</p>
 </header>
-
 <div class="container">
-
   <div class="card">
     <div class="fecha">Última actualización: 29 de abril de 2026</div>
     <span class="badge">Política de Privacidad</span>
-    <p>En <strong>MotoYa</strong>, desarrollada por <strong>Poseidon</strong>, nos comprometemos a proteger y respetar tu privacidad. Esta política explica cómo recopilamos, usamos y protegemos tu información personal cuando usas nuestra aplicación.</p>
-    <p>Al usar MotoYa, aceptas las prácticas descritas en esta política.</p>
+    <p>En <strong>MotoYa</strong>, desarrollada por <strong>Poseidon</strong>, nos comprometemos a proteger y respetar tu privacidad conforme a la <strong>Ley Orgánica de Protección de Datos Personales (LOPDP)</strong> del Ecuador y demás normativa aplicable. Al usar MotoYa, aceptas las prácticas descritas en esta política.</p>
   </div>
-
   <div class="card">
-    <h2>1. Información que Recopilamos</h2>
-    <p>Recopilamos los siguientes datos para brindarte el servicio:</p>
+    <h2>1. Responsable del Tratamiento</h2>
     <ul>
-      <li><strong>Datos de registro:</strong> nombre completo, correo electrónico y contraseña (o autenticación con Google).</li>
-      <li><strong>Datos del conductor:</strong> foto personal, número de cédula, foto de cédula, teléfono, placa del vehículo, modelo, color y foto del vehículo.</li>
-      <li><strong>Datos de ubicación:</strong> ubicación GPS en tiempo real mientras usas la app para facilitar el servicio de transporte.</li>
-      <li><strong>Datos de uso:</strong> historial de viajes, calificaciones, mensajes dentro de la app y estadísticas de uso.</li>
-      <li><strong>Datos de pago:</strong> procesados por <strong>PayPhone</strong>. MotoYa no almacena datos de tarjetas bancarias.</li>
-      <li><strong>Identificadores del dispositivo:</strong> token de notificaciones push (OneSignal) para enviar alertas de viajes.</li>
+      <li><strong>Empresa:</strong> Poseidon</li>
+      <li><strong>Correo:</strong> callcenter@poseidonmk.com</li>
+      <li><strong>WhatsApp:</strong> +593 96 852 0688</li>
+      <li><strong>Ubicación:</strong> Pedernales, Manabí, Ecuador</li>
     </ul>
   </div>
-
   <div class="card">
-    <h2>2. Cómo Usamos tu Información</h2>
-    <p>Utilizamos tus datos exclusivamente para:</p>
+    <h2>2. Información que Recopilamos</h2>
     <ul>
-      <li>Conectar pasajeros con conductores disponibles en Pedernales.</li>
-      <li>Verificar la identidad y documentos de los conductores antes de aprobarlos.</li>
-      <li>Procesar pagos de suscripción mensual de conductores.</li>
-      <li>Enviar notificaciones push de solicitudes de viaje y actualizaciones.</li>
-      <li>Calcular calificaciones y mostrar comentarios de usuarios.</li>
-      <li>Mejorar el servicio mediante análisis de uso agregado y anónimo.</li>
-      <li>Resolver disputas y garantizar la seguridad de los usuarios.</li>
+      <li><strong>Datos de registro:</strong> nombre, correo y contraseña (o Google OAuth).</li>
+      <li><strong>Datos del conductor:</strong> foto, cédula, teléfono, placa, modelo y color del vehículo.</li>
+      <li><strong>Ubicación GPS:</strong> en tiempo real durante el uso de la app.</li>
+      <li><strong>Historial:</strong> viajes, calificaciones y mensajes dentro de la app.</li>
+      <li><strong>Pagos:</strong> procesados por PayPhone. MotoYa no almacena datos de tarjetas bancarias.</li>
+      <li><strong>Dispositivo:</strong> token de notificaciones push (OneSignal).</li>
+    </ul>
+    <div class="highlight">Solo recopilamos datos estrictamente necesarios. No recopilamos información sensible como origen étnico, religión ni datos de salud.</div>
+  </div>
+  <div class="card">
+    <h2>3. Información Compartida entre Usuarios</h2>
+    <ul>
+      <li><strong>Pasajero ve del conductor:</strong> nombre, foto, cédula verificada, calificación, placa, modelo y color.</li>
+      <li><strong>Conductor ve del pasajero:</strong> únicamente nombre y destino. No se comparte foto ni cédula del pasajero.</li>
     </ul>
   </div>
-
   <div class="card">
-    <h2>3. Compartición de Información</h2>
-    <p>No vendemos ni compartimos tu información personal con terceros, excepto en los siguientes casos:</p>
+    <h2>4. Proveedores Tecnológicos</h2>
     <ul>
-      <li><strong>Entre usuarios del servicio:</strong> el pasajero ve el nombre, foto, placa y calificación del conductor asignado. El conductor ve el nombre y destino del pasajero.</li>
-      <li><strong>PayPhone:</strong> para procesar pagos de suscripción. Consulta la política de PayPhone en su sitio web.</li>
-      <li><strong>OneSignal:</strong> para el envío de notificaciones push. Solo compartimos el identificador de dispositivo.</li>
-      <li><strong>Autoridades competentes:</strong> cuando la ley lo exija o para proteger la seguridad de los usuarios.</li>
-    </ul>
-    <div class="highlight">
-      <strong>Importante:</strong> Poseidon actúa como administrador de la plataforma y puede acceder a los datos para verificar conductores, resolver problemas técnicos y garantizar la seguridad del servicio.
-    </div>
-  </div>
-
-  <div class="card">
-    <h2>4. Almacenamiento y Seguridad</h2>
-    <p>Tus datos se almacenan en <strong>Supabase</strong> (infraestructura en la nube con sede en EE.UU.) con las siguientes medidas de seguridad:</p>
-    <ul>
-      <li>Cifrado de datos en tránsito mediante HTTPS/TLS.</li>
-      <li>Acceso restringido a la base de datos mediante políticas de seguridad por filas (RLS).</li>
-      <li>Las fotos se almacenan en servidores seguros con acceso controlado.</li>
-      <li>Las contraseñas nunca se almacenan en texto plano.</li>
+      <li><strong>Supabase:</strong> base de datos y almacenamiento de archivos en la nube.</li>
+      <li><strong>PayPhone:</strong> procesamiento de pagos de suscripción.</li>
+      <li><strong>OneSignal:</strong> notificaciones push — solo se comparte el ID del dispositivo.</li>
+      <li><strong>Google Maps:</strong> mapas y ubicaciones.</li>
+      <li><strong>Google OAuth:</strong> autenticación opcional.</li>
     </ul>
   </div>
-
   <div class="card">
-    <h2>5. Ubicación en Tiempo Real</h2>
-    <p>MotoYa utiliza tu ubicación GPS para:</p>
+    <h2>5. Cooperación con Autoridades y Orden Judicial</h2>
+    <p>Poseidon respeta plenamente el marco legal ecuatoriano:</p>
     <ul>
-      <li>Mostrar tu posición al solicitar o aceptar un viaje.</li>
-      <li>Actualizar la ubicación del conductor en el mapa del pasajero durante el trayecto.</li>
-      <li>Calcular rutas y tiempos estimados de llegada.</li>
+      <li>No entregamos información personal de usuarios a terceros de forma voluntaria bajo ninguna circunstancia.</li>
+      <li>La entrega de datos personales a autoridades <strong>solo procederá mediante orden judicial expresa</strong> emitida por juez competente de la República del Ecuador, conforme al debido proceso legal.</li>
+      <li>Ante solicitudes de autoridades, evaluaremos su legalidad antes de responder y notificaremos al usuario afectado en la medida que la ley lo permita.</li>
+      <li>Cooperaremos con autoridades en investigaciones de delitos graves que involucren usuarios de la plataforma, siempre dentro del marco legal vigente.</li>
     </ul>
-    <p>La ubicación <strong>solo se recopila cuando la app está activa</strong> y el viaje está en curso. Puedes revocar el permiso de ubicación en cualquier momento desde la configuración de tu dispositivo.</p>
+    <div class="warning"><strong>Importante:</strong> ningún representante de Poseidon está autorizado a entregar datos de usuarios sin orden judicial, independientemente del solicitante.</div>
   </div>
-
   <div class="card">
-    <h2>6. Retención de Datos</h2>
+    <h2>6. Seguridad de los Datos</h2>
     <ul>
-      <li>Los datos de usuarios activos se conservan mientras la cuenta esté activa.</li>
-      <li>Al eliminar tu cuenta, tus datos personales serán eliminados en un plazo de 30 días, excepto los registros de viajes que puedan ser necesarios por razones legales.</li>
-      <li>Los datos de conductores rechazados se eliminan a los 90 días.</li>
+      <li>Cifrado en tránsito mediante HTTPS/TLS.</li>
+      <li>Acceso restringido mediante políticas de seguridad por filas (RLS).</li>
+      <li>Contraseñas almacenadas con hash seguro — nunca en texto plano.</li>
+      <li>Acceso administrativo restringido al personal autorizado de Poseidon.</li>
+      <li>Monitoreo continuo de accesos y actividad sospechosa.</li>
     </ul>
   </div>
-
   <div class="card">
-    <h2>7. Tus Derechos</h2>
-    <p>Tienes derecho a:</p>
+    <h2>7. Ubicación en Tiempo Real</h2>
+    <p>La ubicación GPS se recopila únicamente cuando la app está activa y el viaje está en curso. No rastreamos tu ubicación en segundo plano. Puedes revocar este permiso en cualquier momento desde la configuración de tu dispositivo.</p>
+  </div>
+  <div class="card">
+    <h2>8. Retención de Datos</h2>
     <ul>
-      <li><strong>Acceder</strong> a los datos personales que tenemos sobre ti.</li>
-      <li><strong>Corregir</strong> información inexacta desde la app en la sección "Perfil".</li>
-      <li><strong>Eliminar</strong> tu cuenta y datos personales.</li>
-      <li><strong>Portabilidad</strong> de tus datos bajo solicitud.</li>
-      <li><strong>Revocar</strong> permisos de ubicación y notificaciones desde tu dispositivo.</li>
+      <li>Datos activos: conservados mientras la cuenta esté activa.</li>
+      <li>Al eliminar cuenta: datos personales eliminados en 30 días hábiles.</li>
+      <li>Registros de viajes: conservados 2 años por seguridad y cumplimiento legal.</li>
+      <li>Conductores rechazados: datos eliminados a los 90 días.</li>
     </ul>
-    <p>Para ejercer cualquiera de estos derechos, escríbenos a: <strong>callcenter@poseidonmk.com</strong></p>
   </div>
-
   <div class="card">
-    <h2>8. Menores de Edad</h2>
-    <p>MotoYa no está dirigida a menores de 18 años. No recopilamos conscientemente datos de menores. Si eres padre o tutor y crees que tu hijo ha proporcionado datos personales, contáctanos para eliminarlos.</p>
+    <h2>9. Tus Derechos — LOPDP Ecuador</h2>
+    <ul>
+      <li><strong>Acceso:</strong> conocer qué datos tenemos sobre ti.</li>
+      <li><strong>Rectificación:</strong> corregir datos desde la sección "Perfil".</li>
+      <li><strong>Eliminación:</strong> solicitar eliminación de tu cuenta y datos.</li>
+      <li><strong>Portabilidad:</strong> recibir tus datos en formato estructurado.</li>
+      <li><strong>Oposición:</strong> oponerte al tratamiento para fines específicos.</li>
+    </ul>
+    <p>Escríbenos a <strong>callcenter@poseidonmk.com</strong> — respondemos en máximo 15 días hábiles.</p>
   </div>
-
   <div class="card">
-    <h2>9. Cambios a esta Política</h2>
-    <p>Podemos actualizar esta política periódicamente. Te notificaremos sobre cambios significativos a través de la app o por correo electrónico. El uso continuado de MotoYa después de los cambios implica tu aceptación.</p>
+    <h2>10. Menores de Edad</h2>
+    <p>MotoYa no está dirigida a menores de 18 años. Si eres tutor y crees que tu hijo proporcionó datos, contáctanos para eliminarlos de inmediato.</p>
   </div>
-
   <div class="card">
-    <h2>10. Contacto</h2>
-    <p>Si tienes preguntas sobre esta política de privacidad, contáctanos:</p>
+    <h2>11. Legislación Aplicable</h2>
+    <p>Esta política se rige por la <strong>Ley Orgánica de Protección de Datos Personales (LOPDP)</strong>, el <strong>Código Orgánico Integral Penal (COIP)</strong> y demás normativa ecuatoriana aplicable. Cualquier disputa será resuelta por los tribunales competentes de Pedernales, Manabí, Ecuador.</p>
+  </div>
+  <div class="card">
+    <h2>12. Contacto</h2>
     <ul>
       <li><strong>Empresa:</strong> Poseidon</li>
       <li><strong>Correo:</strong> callcenter@poseidonmk.com</li>
       <li><strong>WhatsApp:</strong> +593 96 852 0688</li>
       <li><strong>Web:</strong> <a href="https://www.poseidonmk.com" target="_blank">www.poseidonmk.com</a></li>
-      <li><strong>Ubicación:</strong> Pedernales, Manabí, Ecuador</li>
     </ul>
   </div>
-
 </div>
-
 <footer>
   <p>© 2026 MotoYa — Desarrollado por <a href="https://www.poseidonmk.com" target="_blank">Poseidon</a></p>
   <p style="margin-top:8px">Pedernales, Manabí, Ecuador</p>
 </footer>
-
 </body>
 </html>
